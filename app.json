@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "FORM",
+    "slug": "athlete-os",
+    "scheme": "athleteos",
+    "version": "8.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F5F0",
+    "ios": {
+      "bundleIdentifier": "app.athleteos.personal",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Optional: ein Foto f\u00fcr deine pers\u00f6nliche Body-Scan-Auswertung ausw\u00e4hlen.",
+        "NSCameraUsageDescription": "Optional: ein Foto eines Body-Scan-Berichts aufnehmen.",
+        "UIFileSharingEnabled": true,
+        "LSSupportsOpeningDocumentsInPlace": true
+      },
+      "icon": "./assets/icon.png"
+    },
+    "android": {
+      "package": "app.athleteos.personal"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "expo-document-picker",
+      "expo-image-picker"
+    ],
+    "extra": {
+      "privacy": "All personal data remains on device until user explicitly exports or shares it."
+    },
+    "icon": "./assets/icon.png"
+  }
+}
