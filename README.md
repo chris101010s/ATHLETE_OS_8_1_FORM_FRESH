@@ -1,3 +1,8 @@
+> [!NOTE]
+> **Legacy milestone · FORM 8.1.** Kept for development history. The newer public FORM development line is [FORM 15](https://github.com/chris101010s/FORM_10_LIVING_WORKOUT1).
+
+---
+
 # FORM 8.1 Fresh Start
 
 Aktueller Stand: eigenständige leere Datenbank, vierstufige Einrichtung, keine automatische Übernahme alter Daten. Siehe `RELEASE_REPORT.md` und `BUILD_WINDOWS_TO_IPHONE.md`.
